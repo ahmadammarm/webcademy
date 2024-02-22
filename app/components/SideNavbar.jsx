@@ -1,6 +1,7 @@
 import React from 'react'
 import { BookOpen, Book } from 'lucide-react'
 import Image from 'next/image'
+import Logo from '@/components/Logo'
 
 function SideNavbar() {
 
@@ -18,12 +19,12 @@ function SideNavbar() {
     ]
 
   return (
-    <div className='p-5 bg-slate-950 shadow-lg h-screen'>
-        <Image src='/logo.png' alt='logo'width={170} height={80}/>
+    <div className='p-5 dark:bg-slate-900 dark:shadow-white bg-white shadow-md h-screen'>
+        <Logo />
         <hr className='mt-7' />
         <div>
             {menu.map((item) => (
-                <div className='flex gap-3 mt-1 p-3 text-white text-[18px] items-center cursor-pointer
+                <div className='flex gap-3 mt-1 p-3 text-[18px] items-center cursor-pointer
                 hover:bg-primary
                 hover:bg-opacity-10
                 rounded-md
@@ -32,8 +33,8 @@ function SideNavbar() {
                 ease-in-out
                 group
                 '>
-                    <item.icon size='24' className='group-hover:animate-bounce' />
-                    <span className='text-white'>{item.name}</span>
+                    <item.icon size='24' className='group-hover:animate-bounce text-primary' />
+                    <span className="dark:text-white">{item.name}</span>
                 </div>
             ))}
         </div>

@@ -1,19 +1,23 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNavbar from "./components/SideNavbar";
 import Header from "./components/Header";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata = {
-  title: "Webcademy - Platform Belajar Online",
-  description: "Webcademy - Platform Belajar Online",
+  title: "MEDIU - Platform Belajar Online",
+  description: "MEDIU - Platform Belajar Online",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="dark:bg-slate-950">
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
       <div>
             <div className='sm:w-64 hidden fixed sm:block'>
                 <SideNavbar />
@@ -23,6 +27,7 @@ export default function RootLayout({ children }) {
                 {children}
             </div>
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );
