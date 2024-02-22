@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Kursus() {
+function KursusSaya() {
   return (
     <div className='text-white'>Kursus</div>
   )
 }
 
-export default Kursus
+export default KursusSaya
