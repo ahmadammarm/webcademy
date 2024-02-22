@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 function Header() {
   return (
-    <div className="p-4 bg-slate-800 flex justify-end">
+    <div className="p-4 bg-slate-800 flex justify-end shadow-md">
         <div className="flex items-center gap-4">
             <BellDot className="text-white" />
             <Button className="ml-4">Login</Button>

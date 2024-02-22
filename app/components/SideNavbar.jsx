@@ -7,12 +7,12 @@ function SideNavbar() {
     const menu = [
         {
             id: 1,
-            name: 'Semua Kursus',
+            name: 'Semua Materi',
             icon: BookOpen
         },
         {
             id: 2,
-            name: 'Kursus Saya',
+            name: 'Materi Saya',
             icon: Book
         },
     ]
