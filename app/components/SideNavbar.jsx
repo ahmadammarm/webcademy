@@ -23,6 +23,12 @@ function SideNavbar() {
             icon: Code2,
             link: './javascript'
         },
+        {
+            id: 4,
+            name: 'Tailwind CSS',
+            icon: Code2,
+            link: './tailwind'
+        }
     ]
 
   return (
