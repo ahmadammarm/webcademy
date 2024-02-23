@@ -6,7 +6,6 @@ function Header() {
   return (
     <div className="p-4 dark:bg-slate-900 bg-white flex justify-end shadow-md">
         <div className="flex items-center gap-4">
-            <Button className="ml-4 dark:text-white">Sign in</Button>
             <ModeToggle />
         </div>
     </div>

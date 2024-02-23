@@ -4,8 +4,8 @@ import Header from "./components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata = {
-  title: "MEDIU - Platform Belajar Online",
-  description: "MEDIU - Platform Belajar Online",
+  title: "Webcademy - Platform Belajar Online",
+  description: "Webcademy - Platform Belajar Online",
 };
 
 export default function RootLayout({ children }) {
