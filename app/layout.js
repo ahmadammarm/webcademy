@@ -3,6 +3,7 @@ import SideNavbar from './components/SideNavbar';
 import Header from './components/Header';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import "./globals.css";
+import ChatIcon from './components/ChatIcon';
 
 export const metadata = {
   title: 'Webcademy - Platform Belajar Online',
@@ -22,6 +23,14 @@ export default function RootLayout({ children }) {
               <Header />
               {children}
             </div>
+          </div>
+          <div className="
+          fixed
+          bottom-0
+          right-0
+          m-5
+          ">
+            <ChatIcon />
           </div>
         </ThemeProvider>
       </body>
