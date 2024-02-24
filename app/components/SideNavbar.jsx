@@ -1,33 +1,42 @@
-import React from 'react'
+"use client"
+
+import React, {useEffect} from 'react'
 import { Code2 } from 'lucide-react'
 import Logo from '@/components/Logo'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 function SideNavbar() {
+    const path = usePathname();
+
+    useEffect(() => {
+        console.log("path", path)
+    }, [])
 
     const menu = [
         {
             id: 1,
             name: 'HTML',
             icon: Code2,
-            link: './html'
+            path: '/html'
         },
         {
             id: 2,
             name: 'CSS',
             icon: Code2,
-            link: './css'
+            path: '/css'
         },
         {
             id: 3,
             name: 'Javascript',
             icon: Code2,
-            link: './javascript'
+            path: '/javascript'
         },
         {
             id: 4,
             name: 'Tailwind CSS',
             icon: Code2,
-            link: './tailwind'
+            path: '/tailwind'
         }
     ]
 
@@ -37,18 +46,21 @@ function SideNavbar() {
         <hr className='mt-7' />
         <div>
             {menu.map((item) => (
-                <a href={item.link} className='flex gap-3 mt-1 p-3 text-[18px] items-center cursor-pointer
-                hover:bg-primary
-                hover:bg-opacity-10
-                rounded-md
-                transition-all
-                duration-300
-                ease-in-out
-                group
-                '>
-                    <item.icon size='24' className='group-hover:animate-bounce text-primary' />
-                    <span className="dark:text-white">{item.name}</span>
-                </a>
+                <Link key={item.id} href={item.path}>
+                    <div className={`flex gap-3 mt-1 p-3 text-[18px] items-center cursor-pointer
+                    hover:bg-primary
+                    hover:bg-opacity-10
+                    rounded-md
+                    transition-all
+                    duration-300
+                    ease-in-out
+                    group
+                    ${path === item.path ? 'bg-teal-700 bg-opacity-50' : ''}
+                    `}>
+                        <item.icon size='24' className='group-hover:animate-bounce text-primary' />
+                        <span className="dark:text-white">{item.name}</span>
+                    </div>
+                </Link>
             ))}
         </div>
     </div>
