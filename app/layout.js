@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className="dark:bg-slate-950">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="relative min-h-screen">
-            <div className="sm:w-64 hidden fixed sm:block">
+            <div className="sm:w-64 lg:w-64 hidden fixed sm:block">
               <SideNavbar />
             </div>
             <div className="ml-0 sm:ml-64">

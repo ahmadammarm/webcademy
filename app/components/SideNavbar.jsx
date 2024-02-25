@@ -41,7 +41,7 @@ function SideNavbar() {
     ]
 
   return (
-    <div className='p-5 dark:bg-slate-900 dark:shadow-white bg-white shadow-md h-screen'>
+    <div className='p-5 dark:bg-slate-900 shadow-md bg-white h-screen'>
         <Logo />
         <hr className='mt-7' />
         <div>
