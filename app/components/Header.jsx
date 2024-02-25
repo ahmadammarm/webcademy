@@ -28,7 +28,7 @@ function Header() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) {
+      if (window.innerWidth >= 600) {
         setShowNavbar(false);
       }
     };
@@ -41,7 +41,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="dark:bg-slate-900 bg-white flex shadow-md relative">
+    <div className="dark:bg-slate-900 bg-white shadow-md relative">
       <div
         id="sideNavbar"
         className={`fixed left-0 top-0 h-full bg-white z-10 transition-transform duration-300 ease-in-out transform ${
@@ -50,7 +50,7 @@ function Header() {
       >
         <SideNavbar />
       </div>
-      <div className="flex-grow p-4 flex justify-between items-center">
+      <div className="flex p-4 justify-between items-center">
         <div className="lg:hidden sm:hidden">
           <button onClick={toggleNavbar}>
             {showNavbar ? (
@@ -61,7 +61,7 @@ function Header() {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
               </svg>
             ) : (
               <svg
