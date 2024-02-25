@@ -11,7 +11,6 @@ function Header() {
     setShowNavbar(!showNavbar);
   };
 
-  // Hide SideNavbar when clicked outside of it
   useEffect(() => {
     const handleOutsideClick = (event) => {
       const sideNavbar = document.getElementById('sideNavbar');
@@ -27,7 +26,6 @@ function Header() {
     };
   }, []);
 
-  // Hide SideNavbar on desktop view
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) {
@@ -44,7 +42,6 @@ function Header() {
 
   return (
     <div className="dark:bg-slate-900 bg-white flex shadow-md relative">
-      {/* SideNavbar dengan transisi */}
       <div
         id="sideNavbar"
         className={`fixed left-0 top-0 h-full bg-white z-10 transition-transform duration-300 ease-in-out transform ${
@@ -53,7 +50,6 @@ function Header() {
       >
         <SideNavbar />
       </div>
-      {/* Konten Header */}
       <div className="flex-grow p-4 flex justify-between items-center">
         <div className="lg:hidden sm:hidden">
           <button onClick={toggleNavbar}>
