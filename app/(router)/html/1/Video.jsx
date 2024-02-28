@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Video1({ videoUrl }) {
+function Video({ videoUrl }) {
   return (
     <video width={1000} height={250} controls className="rounded-md">
         <source src={videoUrl} type="video/mp4"/>
@@ -8,4 +8,4 @@ function Video1({ videoUrl }) {
   )
 }
 
-export default Video1
+export default Video
