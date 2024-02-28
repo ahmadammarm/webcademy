@@ -10,7 +10,7 @@ const HTMLData = [
   },
   {
     image: "/assets/html/2.png",
-    title: "Apa itu Semantic ?",
+    title: "Apa itu Semantic HTML5 ?",
     part: "Part 2",
     link: "./css"
   },
