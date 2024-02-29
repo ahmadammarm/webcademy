@@ -14,18 +14,6 @@ const courseItemCardData = [
     author: "Sandhika Galih",
     link: "./css"
   },
-  {
-    image: "/html/banner-javascript.png",
-    title: "Belajar Javascript",
-    author: "Sandhika Galih",
-    link: "./javascript"
-  },
-  {
-    image: "/html/banner-tailwind.png",
-    title: "Belajar Tailwind CSS",
-    author: "Sandhika Galih",
-    link: "./tailwind"
-  }
 ];
 
 const CourseItemCard = ({ image, title, author, link }) => {

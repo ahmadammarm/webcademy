@@ -26,18 +26,6 @@ function SideNavbar() {
             icon: Code2,
             path: '/css'
         },
-        {
-            id: 3,
-            name: 'Javascript',
-            icon: Code2,
-            path: '/javascript'
-        },
-        {
-            id: 4,
-            name: 'Tailwind CSS',
-            icon: Code2,
-            path: '/tailwind'
-        }
     ]
 
     return (
