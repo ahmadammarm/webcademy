@@ -1,7 +1,6 @@
 import React from 'react'
 import SideNavbar from '../components/SideNavbar'
 import Header from '../components/Header'
-import ChatIcon from '../components/ChatIcon'
 import Footer from '../components/Footer'
 
 function layout({children}) {
@@ -22,7 +21,6 @@ function layout({children}) {
           right-0
           m-5
           ">
-            <ChatIcon />
           </div>
           <Footer />
     </div>
