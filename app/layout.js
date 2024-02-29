@@ -4,6 +4,7 @@ import Header from './components/Header';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import "./globals.css";
 import ChatIcon from './components/ChatIcon';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'Webcademy - Platform Belajar Online',
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
           ">
             <ChatIcon />
           </div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
