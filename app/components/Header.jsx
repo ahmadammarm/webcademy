@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { ModeToggle } from '@/components/ui/toggle';
 import SideNavbar from './SideNavbar';
+import { UserButton } from "@clerk/nextjs";
+
 
 function Header() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -76,8 +78,13 @@ function Header() {
             )}
           </button>
         </div>
-        <div className="ml-auto">
+        <div className="flex ml-auto">
+          <div className="mr-5">
           <ModeToggle />
+          </div>
+          <div className="mt-1">
+          <UserButton/>
+          </div>
         </div>
       </div>
     </div>

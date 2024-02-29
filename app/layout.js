@@ -4,6 +4,7 @@ import Header from './components/Header';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import "./globals.css";
 import ChatIcon from './components/ChatIcon';
+import { ClerkProvider } from '@clerk/nextjs'
 import Footer from './components/Footer';
 
 export const metadata = {
@@ -13,6 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body className="dark:bg-slate-950">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
@@ -37,5 +39,6 @@ export default function RootLayout({ children }) {
         </ThemeProvider>
       </body>
     </html>
+    </ClerkProvider>
   );
 }
