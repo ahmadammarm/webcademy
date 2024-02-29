@@ -1,10 +1,9 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from 'react';
-import { ModeToggle } from '@/components/ui/toggle';
-import SideNavbar from './SideNavbar';
+import { useState, useEffect } from "react";
+import { ModeToggle } from "@/components/ui/toggle";
+import SideNavbar from "./SideNavbar";
 import { UserButton } from "@clerk/nextjs";
-
 
 function Header() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -15,16 +14,16 @@ function Header() {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      const sideNavbar = document.getElementById('sideNavbar');
+      const sideNavbar = document.getElementById("sideNavbar");
       if (sideNavbar && !sideNavbar.contains(event.target)) {
         setShowNavbar(false);
       }
     };
 
-    document.addEventListener('mousedown', handleOutsideClick);
+    document.addEventListener("mousedown", handleOutsideClick);
 
     return () => {
-      document.removeEventListener('mousedown', handleOutsideClick);
+      document.removeEventListener("mousedown", handleOutsideClick);
     };
   }, []);
 
@@ -35,10 +34,10 @@ function Header() {
       }
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -47,7 +46,7 @@ function Header() {
       <div
         id="sideNavbar"
         className={`fixed left-0 top-0 h-full bg-white z-10 transition-transform duration-300 ease-in-out transform ${
-          showNavbar ? 'translate-x-0' : '-translate-x-full'
+          showNavbar ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <SideNavbar />
@@ -63,7 +62,12 @@ function Header() {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
               </svg>
             ) : (
               <svg
@@ -73,17 +77,22 @@ function Header() {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
               </svg>
             )}
           </button>
         </div>
         <div className="flex ml-auto">
           <div className="mr-5">
-          <ModeToggle />
+            <ModeToggle />
           </div>
           <div className="mt-1">
-          <UserButton afterSignOutUrl="/sign-in" />
+            <UserButton afterSignOutUrl="/sign-in" />
           </div>
         </div>
       </div>
@@ -92,5 +101,3 @@ function Header() {
 }
 
 export default Header;
-
-

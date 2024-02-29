@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { currentUser } from '@clerk/nextjs'
 
 async function WelcomeBanner() {
@@ -8,10 +7,9 @@ async function WelcomeBanner() {
 
   return (
     <div className="flex gap-5 items-center bg-white dark:bg-slate-900 rounded-md p-5">
-        <Image src="/banner.png" width={100} height={100} />
         <div>
-          <h2 className="lg:text-[30px] font-bold md:text-2xl mb-4">Selamat Datang di Webcademy</h2>
-          <h2 className="lg:text-[30px] font-bold text-primary md:text-lg">{user.firstName} {user.lastName}</h2>
+          <h2 className="text-[30px] font-bold mb-4">Selamat Datang <span className="text-primary">{user.firstName} {user.lastName}</span></h2>
+          <p>Mari Belajar Pemrograman Web di <span className="text-primary">Webcademy</span> Bersama Sepuh WPU 😃</p>
         </div>
     </div>
   )
