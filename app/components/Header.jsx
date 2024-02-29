@@ -83,7 +83,7 @@ function Header() {
           <ModeToggle />
           </div>
           <div className="mt-1">
-          <UserButton/>
+          <UserButton afterSignOutUrl="/sign-in"/>
           </div>
         </div>
       </div>
