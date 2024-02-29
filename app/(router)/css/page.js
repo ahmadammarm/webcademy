@@ -12,97 +12,97 @@ const CSSData = [
     image: "/assets/css/2.webp",
     title: "Border Radius",
     part: "Part 2",
-    link: "./css"
+    link: "./css/2"
   },
   {
     image: "/assets/css/3.webp",
     title: "Opacity",
     part: "Part 3",
-    link: "./javascript"
+    link: "./css/3"
   },
   {
     image: "/assets/css/4.webp",
     title: "RGBa dan HSLa",
     part: "Part 4",
-    link: "./tailwind"
+    link: "./css/4"
   },
   {
     image: "/assets/css/5.webp",
     title: "Box Shadow Part 1",
     part: "Part 5",
-    link: "./tailwind"
+    link: "./css/5"
   },
   {
     image: "/assets/css/6.webp",
     title: "Box Shadow Part 2",
     part: "Part 6",
-    link: "./tailwind"
+    link: "./css/6"
   },
   {
     image: "/assets/css/7.webp",
     title: "Text Shadow",
     part: "Part 7",
-    link: "./tailwind"
+    link: "./css/7"
   },
   {
     image: "/assets/css/8.webp",
     title: "Linear Gradient",
     part: "Part 8",
-    link: "./tailwind"
+    link: "./css/8"
   },
   {
     image: "/assets/css/9.webp",
     title: "Radial Gradient",
     part: "Part 9",
-    link: "./tailwind"
+    link: "./css/9"
   },
   {
     image: "/assets/css/10.webp",
     title: "Font Face",
     part: "Part 10",
-    link: "/css/1"
+    link: "/css/10"
   },
   {
     image: "/assets/css/11.webp",
     title: "Web Font Generator",
     part: "Part 11",
-    link: "./css"
+    link: "./css/11"
   },
   {
     image: "/assets/css/12.webp",
     title: "Vendor Prefix",
     part: "Part 12",
-    link: "./javascript"
+    link: "./css/12"
   },
   {
     image: "/assets/css/13.webp",
     title: "Filter",
     part: "Part 13",
-    link: "./tailwind"
+    link: "./css/13"
   },
   {
     image: "/assets/css/14.webp",
     title: "Transform",
     part: "Part 14",
-    link: "./tailwind"
+    link: "./css/14"
   },
   {
     image: "/assets/css/15.webp",
     title: "Transition Part 1",
     part: "Part 15",
-    link: "./tailwind"
+    link: "./css/15"
   },
   {
     image: "/assets/css/16.webp",
     title: "Transition Part 2",
     part: "Part 16",
-    link: "./tailwind"
+    link: "./css/16"
   },
   {
     image: "/assets/css/17.webp",
     title: "Animation",
     part: "Part 17",
-    link: "./tailwind"
+    link: "./css/17"
   },
 ];
 

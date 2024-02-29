@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
 
-function Video({ videoUrl }) {
+function Video() {
+
   return (
-    <video width={1000} height={250} controls className="rounded-md">
-        <source src={videoUrl} type="video/mp4"/>
-    </video>
-  )
+    <div className="
+    flex
+    relative
+    ">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Q2VqCG13ejA?si=1niYw-cXySDy5iW4"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
 }
 
-export default Video
+export default Video;
+

@@ -7,7 +7,7 @@ function Description() {
       <h2 className="text-[20px] font-semibold">6. Box Shadow Part 2</h2>
       <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
       {/* Video */}
-      <Video videoUrl="/video/css/6.mp4" />
+      <Video />
 
       {/* Deskripsi */}
       <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
