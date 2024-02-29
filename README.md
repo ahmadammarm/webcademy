@@ -22,6 +22,28 @@ cd webcademy
 npm install
 ```
 
+<h3>Install Clerk Authentication :</h3>
+
+```bash
+npm install @clerk/nextjs
+```
+
+<h3>Go to clerk dashboard :</h3>
+
+[Clerk Dashboard](https://dashboard.clerk.com)
+
+<h3>Setting ur Environment Keys in .env :</h3>
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLIC_KEY
+CLERK_SECRET_KEY=YOUR_CLERK_SECRET_KEY
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```
+
 <h3>Run in your local :</h3>
 
 ```bash
