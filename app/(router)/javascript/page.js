@@ -12,259 +12,259 @@ const JavascriptData = [
     image: "/assets/javascript/2.webp",
     title: "Apa itu Pemrograman?",
     part: "Part 2",
-    link: "./javascript"
+    link: "/javascript/2"
   },
   {
     image: "/assets/javascript/3.webp",
     title: "Bahasa Pemrograman",
     part: "Part 3",
-    link: "./javascript"
+    link: "/javascript/3"
   },
   {
     image: "/assets/javascript/4.webp",
     title: "Compiler vs Interpreter",
     part: "Part 4",
-    link: "./tailwind"
+    link: "/javascript/4"
   },
   {
     image: "/assets/javascript/5.webp",
     title: "Kenapa Belajar Javascript?",
     part: "Part 5",
-    link: "./tailwind"
+    link: "/javascript/5"
   },
   {
     image: "/assets/javascript/6.webp",
     title: "Sejarah Jaavscript",
     part: "Part 6",
-    link: "./tailwind"
+    link: "/javascript/6"
   },
   {
     image: "/assets/javascript/7.webp",
     title: "Lingkungan Pengembangan Javascript",
     part: "Part 7",
-    link: "./tailwind"
+    link: "/javascript/7"
   },
   {
     image: "/assets/javascript/8.webp",
     title: "Nilai dan Tipe Data",
     part: "Part 8",
-    link: "./tailwind"
+    link: "/javascript/8"
   },
   {
     image: "/assets/javascript/9.webp",
     title: "Angka",
     part: "Part 9",
-    link: "./tailwind"
+    link: "/javascript/9"
   },
   {
     image: "/assets/javascript/10.webp",
     title: "Operator Aritmatika, Penugasan, dan Perbandingan",
     part: "Part 10",
-    link: "/javascript/1"
+    link: "/javascript/10"
   },
   {
     image: "/assets/javascript/11.webp",
     title: "Operator Logika, String, Typeof, dan Kondisional",
     part: "Part 11",
-    link: "./javascript"
+    link: "./javascript/11"
   },
   {
     image: "/assets/javascript/12.webp",
     title: "String",
     part: "Part 12",
-    link: "./javascript"
+    link: "./javascript/12"
   },
   {
     image: "/assets/javascript/13.webp",
     title: "Boolean",
     part: "Part 13",
-    link: "./tailwind"
+    link: "/javascript/13"
   },
   {
     image: "/assets/javascript/14.webp",
     title: "Variable",
     part: "Part 14",
-    link: "./tailwind"
+    link: "/javascript/14"
   },
   {
     image: "/assets/javascript/15.webp",
     title: "Menulis Javascript",
     part: "Part 15",
-    link: "./tailwind"
+    link: "/javascript/15"
   },
   {
     image: "/assets/javascript/16.webp",
     title: "Popup Box",
     part: "Part 16",
-    link: "./tailwind"
+    link: "/javascript/16"
   },
   {
     image: "/assets/javascript/17.webp",
     title: "Control Flow",
     part: "Part 17",
-    link: "./tailwind"
+    link: "/javascript/17"
   },
   {
     image: "/assets/javascript/18.webp",
     title: "Pengulangan While",
     part: "Part 18",
-    link: "/javascript/1"
+    link: "/javascript/18"
   },
   {
     image: "/assets/javascript/19.webp",
     title: "Tabel Penelusuran",
     part: "Part 19",
-    link: "./javascript"
+    link: "./javascript/19"
   },
   {
     image: "/assets/javascript/20.webp",
     title: "Pengulangan For",
     part: "Part 20",
-    link: "./javascript"
+    link: "./javascript/20"
   },
   {
     image: "/assets/javascript/21.webp",
     title: "Perkondisian If Else",
     part: "Part 21",
-    link: "./tailwind"
+    link: "/javascript/21"
   },
   {
     image: "/assets/javascript/22.webp",
     title: "Perkondisian Else If",
     part: "Part 22",
-    link: "./tailwind"
+    link: "/javascript/22"
   },
   {
     image: "/assets/javascript/23.webp",
     title: "Pengkondisian Latihan",
     part: "Part 23",
-    link: "./tailwind"
+    link: "/javascript/23"
   },
   {
     image: "/assets/javascript/24.webp",
     title: "Pengkondisian Switch",
     part: "Part 24",
-    link: "./tailwind"
+    link: "/javascript/24"
   },
   {
     image: "/assets/javascript/25.webp",
     title: "Pengulangan dan Pengkondisian Bersarang",
     part: "Part 25",
-    link: "./tailwind"
+    link: "/javascript/25"
   },
   {
     image: "/assets/javascript/26.webp",
     title: "Membuat Game Suwit Jawa",
     part: "Part 26",
-    link: "./tailwind"
+    link: "/javascript/26"
   },
   {
     image: "/assets/javascript/27.webp",
     title: "Function",
     part: "Part 27",
-    link: "/javascript/1"
+    link: "/javascript/27"
   },
   {
     image: "/assets/javascript/28.webp",
     title: "Membuat Function",
     part: "Part 28",
-    link: "./javascript"
+    link: "./javascript/28"
   },
   {
     image: "/assets/javascript/29.webp",
     title: "Parameter dan Argument",
     part: "Part 29",
-    link: "./javascript"
+    link: "./javascript/29"
   },
   {
     image: "/assets/javascript/30.webp",
     title: "Refactoring",
     part: "Part 30",
-    link: "./tailwind"
+    link: "/javascript/30"
   },
   {
     image: "/assets/javascript/31.webp",
     title: "Variable Scope",
     part: "Part 31",
-    link: "./tailwind"
+    link: "/javascript/31"
   },
   {
     image: "/assets/javascript/32.webp",
     title: "Rekursif",
     part: "Part 32",
-    link: "./tailwind"
+    link: "/javascript/32"
   },
   {
     image: "/assets/javascript/33.webp",
     title: "Declaration vs Expression",
     part: "Part 33",
-    link: "./tailwind"
+    link: "/javascript/33"
   },
   {
     image: "/assets/javascript/34.webp",
     title: "Array",
     part: "Part 34",
-    link: "./tailwind"
+    link: "/javascript/34"
   },
   {
     image: "/assets/javascript/35.webp",
     title: "Manipulasi Array",
     part: "Part 35",
-    link: "./tailwind"
+    link: "/javascript/35"
   },
   {
     image: "/assets/javascript/36.webp",
     title: "Array Slice dan Splice",
     part: "Part 36",
-    link: "./tailwind"
+    link: "/javascript/36"
   },
   {
     image: "/assets/javascript/37.webp",
     title: "Array ForEach dan Map",
     part: "Part 37",
-    link: "/javascript/1"
+    link: "/javascript/37"
   },
   {
     image: "/assets/javascript/38.webp",
     title: "Array Filter dan Find",
     part: "Part 38",
-    link: "./javascript"
+    link: "./javascript/38"
   },
   {
     image: "/assets/javascript/39.webp",
     title: "Membuat Program Pengelolaan Penumpang Angkot Part 1",
     part: "Part 39",
-    link: "./javascript"
+    link: "./javascript/39"
   },
   {
     image: "/assets/javascript/40.webp",
     title: "Membuat Program Pengelolaan Penumpang Angkot Part 2",
     part: "Part 40",
-    link: "./tailwind"
+    link: "/javascript/40"
   },
   {
     image: "/assets/javascript/41.webp",
     title: "Object",
     part: "Part 41",
-    link: "./tailwind"
+    link: "/javascript/41"
   },
   {
     image: "/assets/javascript/42.webp",
     title: "Membuat Object",
     part: "Part 42",
-    link: "./tailwind"
+    link: "/javascript/42"
   },
   {
     image: "/assets/javascript/43.webp",
     title: "This",
     part: "Part 43",
-    link: "./tailwind"
+    link: "/javascript/43"
   },
   {
     image: "/assets/javascript/44.webp",
     title: "Latihan Object",
     part: "Part 44",
-    link: "./tailwind"
+    link: "/javascript/44"
   },
 ];
 

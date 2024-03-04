@@ -26,6 +26,12 @@ function SideNavbar() {
             icon: Code2,
             path: '/css'
         },
+        {
+            id: 3,
+            name: 'Javascript',
+            icon: Code2,
+            path: '/javascript'
+        },
     ]
 
     return (

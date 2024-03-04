@@ -3,6 +3,8 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
+import { Toaster } from '@/components/ui/toaster';
+
 
 
 export const metadata = {
@@ -31,6 +33,7 @@ export default function RootLayout({ children }) {
           ">
           {children}
           </div>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
