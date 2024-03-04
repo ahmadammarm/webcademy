@@ -4,7 +4,7 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">1. Intro</h2>
+      <h2 className="text-[20px] font-semibold">2. Apa itu Pemrograman ?</h2>
       <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
       {/* Video */}
       <Video />
@@ -12,15 +12,7 @@ function Description() {
       {/* Deskripsi */}
       <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
       <p className="text-[14px] mt-5 italic">
-        Video ini merupakan pengantar yang membawa Anda ke dalam dunia bahasa
-        pemrograman JavaScript. Dalam video ini, Anda akan mempelajari sejarah
-        singkat JavaScript, kegunaan utamanya, serta mengapa JavaScript menjadi
-        bahasa pemrograman yang penting dalam pengembangan web modern. Kami juga
-        akan membahas beberapa konsep dasar JavaScript seperti variabel, tipe
-        data, dan struktur kontrol, yang akan memberi Anda landasan yang kuat
-        untuk memahami lebih lanjut tentang bahasa ini. Siapkan diri Anda untuk
-        memulai perjalanan mengasyikkan dalam belajar bahasa pemrograman
-        JavaScript!
+      Video ini merupakan pengantar yang memperkenalkan konsep dasar tentang apa itu pemrograman, khususnya dalam konteks bahasa pemrograman JavaScript. Anda akan memahami secara singkat konsep dasar pemrograman seperti algoritma, logika pemrograman, dan struktur data. Kami juga akan menjelaskan mengapa pemrograman penting dalam pengembangan perangkat lunak, serta bagaimana JavaScript dapat digunakan untuk menciptakan aplikasi web yang dinamis dan interaktif. Persiapkan diri Anda untuk memperluas pengetahuan tentang dunia pemrograman dengan video ini!
       </p>
       <h2 className="mt-5 text-[20px] font-semibold">
         Sumber Video :{" "}
