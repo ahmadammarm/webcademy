@@ -11,7 +11,7 @@ function NextPart() {
 
   return (
     <div className="p-5 text-center rounded-sm bg-white dark:bg-slate-900">
-      <h2 className="text-[20px] font-bold">Belajar javascript3</h2>
+      <h2 className="text-[20px] font-bold">Belajar Javascript</h2>
       <div className="flex flex-col gap-5 mt-5">
         <a
           href="/javascript/1"

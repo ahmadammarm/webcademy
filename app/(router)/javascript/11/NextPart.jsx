@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 function NextPart() {
-  const [activePage, setActivePage] = useState(5);
+  const [activePage, setActivePage] = useState(11);
 
   const handleClick = (pageNumber) => {
     setActivePage(pageNumber);
