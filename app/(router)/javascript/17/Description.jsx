@@ -14,7 +14,7 @@ function Description() {
       {/* Deskripsi */}
       <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
       <p className="text-[14px] mt-5 italic">
-      Video pembelajaran ini membimbing Anda langkah demi langkah dalam menulis kode JavaScript. Anda akan belajar tentang sintaks dasar JavaScript, termasuk cara mendefinisikan variabel, menulis pernyataan kondisional, membuat perulangan, dan menggunakan fungsi. Video ini juga memberikan wawasan tentang konsep dasar pemrograman, seperti logika algoritma dan pemecahan masalah. Dengan penjelasan yang jelas dan contoh yang diberikan, video ini sangat cocok bagi pemula yang ingin memulai perjalanan mereka dalam mempelajari bahasa pemrograman JavaScript.
+      Video pembelajaran ini menjelaskan konsep dasar tentang alur kontrol (control flow) dalam bahasa pemrograman JavaScript. Anda akan diajarkan bagaimana struktur kendali seperti pernyataan if, else if, dan else digunakan untuk mengatur jalannya eksekusi program berdasarkan kondisi tertentu. Materi juga mencakup penggunaan pernyataan switch untuk menangani multiple conditions. Selain itu, Anda akan mempelajari tentang penggunaan loop seperti for, while, dan do-while untuk melakukan tugas berulang secara efisien. Video ini disertai dengan contoh yang jelas untuk membantu Anda memahami konsep alur kontrol dengan baik. Cocok untuk pemula yang ingin memahami dasar-dasar struktur kendali dalam JavaScript.
       </p>
       <h2 className="mt-5 text-[20px] font-semibold">
         Sumber Video :{" "}

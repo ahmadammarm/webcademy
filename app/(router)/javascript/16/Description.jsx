@@ -14,7 +14,7 @@ function Description() {
       {/* Deskripsi */}
       <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
       <p className="text-[14px] mt-5 italic">
-      Video pembelajaran ini membimbing Anda langkah demi langkah dalam menulis kode JavaScript. Anda akan belajar tentang sintaks dasar JavaScript, termasuk cara mendefinisikan variabel, menulis pernyataan kondisional, membuat perulangan, dan menggunakan fungsi. Video ini juga memberikan wawasan tentang konsep dasar pemrograman, seperti logika algoritma dan pemecahan masalah. Dengan penjelasan yang jelas dan contoh yang diberikan, video ini sangat cocok bagi pemula yang ingin memulai perjalanan mereka dalam mempelajari bahasa pemrograman JavaScript.
+      Video pembelajaran ini membahas penggunaan popup box dalam pengembangan web dengan JavaScript. Anda akan diajarkan cara membuat dan mengontrol kotak dialog popup seperti alert, confirm, dan prompt. Materi mencakup cara menampilkan pesan kepada pengguna, menerima input dari pengguna, serta menangani respons yang diberikan. Video ini juga menjelaskan penggunaan popup box untuk memberikan informasi, meminta konfirmasi, atau mengumpulkan data dari pengguna secara interaktif. Dengan penjelasan yang jelas dan contoh yang disertakan, video ini sangat cocok bagi pemula yang ingin mempelajari cara menggunakan popup box dalam pengembangan web menggunakan JavaScript.
       </p>
       <h2 className="mt-5 text-[20px] font-semibold">
         Sumber Video :{" "}

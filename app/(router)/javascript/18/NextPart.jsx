@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 function NextPart() {
-  const [activePage, setActivePage] = useState(14);
+  const [activePage, setActivePage] = useState(18);
 
   const handleClick = (pageNumber) => {
     setActivePage(pageNumber);
@@ -169,7 +169,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 18 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(18)}
         >
@@ -178,7 +178,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 19 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(19)}
         >
@@ -187,7 +187,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 20 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(20)}
         >
@@ -196,7 +196,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 21 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(21)}
         >
@@ -205,7 +205,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 22 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(22)}
         >
@@ -214,7 +214,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 23 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(23)}
         >
@@ -223,7 +223,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 24 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(24)}
         >
@@ -232,7 +232,7 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 25 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(25)}
         >

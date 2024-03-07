@@ -169,245 +169,74 @@ function NextPart() {
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 18 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(18)}
         >
           18. Pengulangan : While
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 19 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(19)}
         >
           19. Pengulangan : Tabel Penelusuran
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 20 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(20)}
         >
           20. Pengulangan : For
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 21 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(21)}
         >
           21. Pengkondisian : If Else
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 22 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(22)}
         >
           22. Pengkondisian : If Else
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 23 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(23)}
         >
           23. Latihan Pengkondisian
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 24 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(24)}
         >
           24. Pengkondisian : Switch 
         </a>
         <a
           href="/javascript/17"
           className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
+            activePage === 25 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
+          onClick={() => handleClick(25)}
         >
           25. Pengulangan dan Pengkondisian Bersarang
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          26. Membuat Game Suwit
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          27. Function : Intro
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          28. Function : Membuat dan Menjalankan Function
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          29. Function : Parameter dan Argument
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          30. Function : Refactoring
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          31. Function : Variable Scope
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          32. Function : Rekursif
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          33. Function : Declaration vs Expression
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          34. Array : Intro
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          35. Array : Manipulasi Array
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          36. Array : Slice dan Splice
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          37. Array : Foreach dan Map
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          38. Array : Filter dan Find
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          39. Membuat Program Pengelolaan Penumpang Angkot Part 1
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          40. Membuat Program Pengelolaan Penumpang Angkot Part 2
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          41. Object : Intro
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          42. Object : Membuat Object
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          43. Object : This
-        </a>
-        <a
-          href="/javascript/17"
-          className={`block border rounded-md p-3 ${
-            activePage === 17 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
-          } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
-          onClick={() => handleClick(17)}
-        >
-          44. Object : Latihan Object
         </a>
       </div>
     </div>
