@@ -12,67 +12,67 @@ const TailwindData = [
     image: "/assets/tailwind/2.png",
     title: "Kenapa Belajar Tailwind CSS ?",
     part: "Part 2",
-    link: "./css"
+    link: "/tailwind/2"
   },
   {
     image: "/assets/tailwind/3.png",
     title: "Instalasi dan Konfigurasi Tailwind CSS",
     part: "Part 3",
-    link: "./javascript"
+    link: "/tailwind/3"
   },
   {
     image: "/assets/tailwind/4.png",
     title: "Basic Utility Part 1",
     part: "Part 4",
-    link: "./tailwind"
+    link: "/tailwind/4"
   },
   {
     image: "/assets/tailwind/5.png",
     title: "Basic Utility Part 2",
     part: "Part 5",
-    link: "./tailwind"
+    link: "/tailwind/5"
   },
   {
     image: "/assets/tailwind/6.png",
     title: "Pseudo Class dan Dark Mode",
     part: "Part 6",
-    link: "./tailwind"
+    link: "/tailwind/6"
   },
   {
     image: "/assets/tailwind/7.png",
     title: "Transform, Transition, dan Animation",
     part: "Part 7",
-    link: "./tailwind"
+    link: "/tailwind/7"
   },
   {
     image: "/assets/tailwind/8.png",
     title: "Layouting",
     part: "Part 8",
-    link: "./tailwind"
+    link: "/tailwind/8"
   },
   {
     image: "/assets/tailwind/9.png",
     title: "Responsive Design",
     part: "Part 9",
-    link: "./tailwind"
+    link: "/tailwind/9"
   },
   {
     image: "/assets/tailwind/10.png",
     title: "Flexbox",
     part: "Part 10",
-    link: "./tailwind"
+    link: "/tailwind/10"
   },
   {
     image: "/assets/tailwind/11.png",
     title: "Grid",
-    part: "Part 10",
-    link: "./tailwind"
+    part: "Part 11",
+    link: "/tailwind/11"
   },
   {
     image: "/assets/tailwind/12.png",
     title: "Function dan Directives",
-    part: "Part 10",
-    link: "./tailwind"
+    part: "Part 12",
+    link: "/tailwind/12"
   },
 ];
 
