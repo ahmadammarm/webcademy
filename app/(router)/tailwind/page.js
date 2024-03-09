@@ -16,7 +16,7 @@ const TailwindData = [
   },
   {
     image: "/assets/tailwind/3.png",
-    title: "Instalasi dan Konfigurasi Tailwind CSS",
+    title: "Instalasi dan Konfigurasi",
     part: "Part 3",
     link: "/tailwind/3"
   },
