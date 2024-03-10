@@ -1,6 +1,7 @@
-import CourseList from "@/components/CourseList";
-import SideBanners from "@/components/SideBanners";
-import WelcomeBanner from "@/components/WelcomeBanner";
+import CourseList from "../components/CourseList";
+import SideBanners from "../components/SideBanners";
+import WelcomeBanner from "../components/WelcomeBanner";
+
 
 
 export default function Home() {
