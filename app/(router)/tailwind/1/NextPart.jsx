@@ -14,7 +14,7 @@ function NextPart() {
       <h2 className="text-[20px] font-bold">Belajar Tailwind CSS</h2>
       <div className="flex flex-col gap-5 mt-5">
         <a
-          href="/html/1"
+          href="/tailwind/1"
           className={`block border rounded-md p-3 ${
             activePage === 1 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -23,7 +23,7 @@ function NextPart() {
           1. Apa itu Tailwind CSS ?
         </a>
         <a
-          href="/html/2"
+          href="/tailwind/2"
           className={`block border rounded-md p-3 ${
             activePage === 2 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -32,7 +32,7 @@ function NextPart() {
           2. Kenapa Belajar Tailwind CSS ?
         </a>
         <a
-          href="/html/3"
+          href="/tailwind/3"
           className={`block border rounded-md p-3 ${
             activePage === 3 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -41,7 +41,7 @@ function NextPart() {
           3. Instalasi dan Konfigurasi
         </a>
         <a
-          href="/html/4"
+          href="/tailwind/4"
           className={`block border rounded-md p-3 ${
             activePage === 4 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -50,7 +50,7 @@ function NextPart() {
           4. Basic Utility Part 1
         </a>
         <a
-          href="/html/5"
+          href="/tailwind/5"
           className={`block border rounded-md p-3 ${
             activePage === 5 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -59,7 +59,7 @@ function NextPart() {
           5. Basic Utility Part 2
         </a>
         <a
-          href="/html/6"
+          href="/tailwind/6"
           className={`block border rounded-md p-3 ${
             activePage === 6 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -68,7 +68,7 @@ function NextPart() {
           6. Pseudo Class dan Dark Mode
         </a>
         <a
-          href="/html/7"
+          href="/tailwind/7"
           className={`block border rounded-md p-3 ${
             activePage === 7 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -77,7 +77,7 @@ function NextPart() {
           7. Transform, Transition, dan Animation
         </a>
         <a
-          href="/html/8"
+          href="/tailwind/8"
           className={`block border rounded-md p-3 ${
             activePage === 8 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -86,7 +86,7 @@ function NextPart() {
           8. Layouting
         </a>
         <a
-          href="/html/9"
+          href="/tailwind/9"
           className={`block border rounded-md p-3 ${
             activePage === 9 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -95,7 +95,7 @@ function NextPart() {
           9. Responsive Design
         </a>
         <a
-          href="/html/9"
+          href="/tailwind/10"
           className={`block border rounded-md p-3 ${
             activePage === 10 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -104,7 +104,7 @@ function NextPart() {
           10. Flexbox
         </a>
         <a
-          href="/html/9"
+          href="/tailwind/11"
           className={`block border rounded-md p-3 ${
             activePage === 11 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
@@ -113,7 +113,7 @@ function NextPart() {
           11. Grid
         </a>
         <a
-          href="/html/9"
+          href="/tailwind/12"
           className={`block border rounded-md p-3 ${
             activePage === 12 ? "bg-primary" : "bg-gray-200 dark:bg-slate-900"
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
