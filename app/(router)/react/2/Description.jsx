@@ -4,7 +4,7 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">1. Setup Project</h2>
+      <h2 className="text-[20px] font-semibold">2. Setup Project</h2>
       <h2 className="text-gray-400 text-[14px] mb-3">Avip Syaifulloh</h2>
       {/* Video */}
       <Video />
