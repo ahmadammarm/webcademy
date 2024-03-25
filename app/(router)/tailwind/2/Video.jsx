@@ -14,7 +14,7 @@ function Video() {
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-        className="rounded-md"
+        className="rounded-md w-full"
       ></iframe>
     </div>
   );

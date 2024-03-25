@@ -26,6 +26,12 @@ const courseItemCardData = [
     author: "Sandhika Galih",
     link: "./tailwind"
   },
+  {
+    image: "/html/react.png",
+    title: "Belajar React",
+    author: "Avip Syaifulloh",
+    link: "./react"
+  },
 ];
 
 const CourseItemCard = ({ image, title, author, link }) => {

@@ -38,6 +38,12 @@ function SideNavbar() {
             icon: Code2,
             path: '/tailwind'
         },
+        {
+            id: 5,
+            name: 'React',
+            icon: Code2,
+            path: '/react'
+        },
     ]
 
     return (
