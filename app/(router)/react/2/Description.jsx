@@ -17,7 +17,7 @@ function Description() {
       <h2 className="mt-5 text-[20px] font-semibold">
         Sumber Video :{" "}
         <a
-          href="https://www.youtube.com/watch?v=rNSfMxMPWqc&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=2"
+          href="https://youtu.be/QbmrYAq-YqE?si=mIzkyM4wKkJ-zDHV"
           target="blank"
           className="
         text-blue-500
